@@ -10,3 +10,67 @@
   background-color: darkblue;
   color: #fff;
 }
+.container .header {
+  height: 100px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .header-input {
+  width: 270px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header-input input {
+  border: none;
+  outline: none;
+}
+.container .header-input > div:last-child i {
+  color: #000;
+}
+.container .main {
+  width: 100%;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 10%;
+}
+.container .main-scheda {
+  width: calc(100% / 4 - 10px);
+  margin: 5px;
+  padding-bottom: 10px;
+  background-color: #000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container .main-scheda img {
+  width: 100%;
+}
+.container .main-scheda-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .main-scheda-text > * {
+  align-self: center;
+  text-align: center;
+}
+.container .main-scheda-text-album {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 8px 15px 20px 15px;
+}
+.container .main-scheda-text-artista {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.container .main-scheda-text-genere, .container .main-scheda-text-anno {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
