@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
     <?php
       require_once __DIR__ . '/database/database.php';
     ?>
+
     <div class="container">
       <div class="header">
         <div class="header-input">
@@ -30,7 +32,7 @@
         ?>
 
         <div class="main-scheda">
-          <img src="<?php echo $dischi['image']; ?>">
+          <img src="<?php echo $disco['image']; ?>">
           <div class="main-scheda-text">
             <div class="main-scheda-text-album"><?php echo $disco['titolo']; ?></div>
             <div class="main-scheda-text-artista"><?php echo $disco['autore']; ?></div>
