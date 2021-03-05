@@ -14,7 +14,7 @@
       require_once __DIR__ . '/database/database.php';
     ?>
 
-    <div class="container">
+    <div class="container root">
       <div class="header">
         <div class="header-input">
           <div>
